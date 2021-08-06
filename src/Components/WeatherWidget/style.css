@@ -1,5 +1,19 @@
-.widget {
-  margin: auto;
-
-  /* border: 2px purple solid; */
+.weatherApp {
+  width: auto;
+  height: 100vh;
+  padding: 2em;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0.8015581232492998) 0%,
+    rgba(70, 67, 96, 1) 0%,
+    rgba(255, 255, 255, 0.8015581232492998) 100%
+  );
+}
+.weather {
+  margin-top: 2em;
+  background-color: transparent;
+}
+.mb2 {
+  margin-bottom: 2em;
 }
